@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Satisfy&display=swap');
+
+body{
+    max-width: 600px;
+    margin: 0px 7rem;
+    text-align: center;
+    background-image: url("images/parndrome.jpg");
+    background-size: 1366px 635px;
+    font-family: 'Satisfy', cursive;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 0%;
+    font-family: 'Kaushan Script', cursive;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+label{
+    font-size: x-large;
+    font-weight: 800;
+}  
+
+input{
+    width:10rem;
+    height: 2rem;
+    font-size: x-large;
+    margin: 1.5rem;
+    border-radius: 8px;
+}
+
+button{
+    padding:0.5rem 2rem;
+    font-weight: bolder;
+    border-radius: 8px;
+}
