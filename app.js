@@ -225,7 +225,7 @@ function clickHandler(e) {
     }
   }
   else{
-    alert("Please enter the date.")
+  output.innerText="Please enter the date"
   }
 }
 check.addEventListener("click", clickHandler);
