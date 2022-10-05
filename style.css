@@ -6,7 +6,7 @@ body{
     margin: 0px 7rem;
     text-align: center;
     background-image: url("images/parndrome.jpg");
-    background-size: 1366px 635px;
+    background-size: cover;
     font-family: 'Satisfy', cursive;
 }
 
