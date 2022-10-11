@@ -41,8 +41,8 @@ function getAllDateFormats(date) {
   var ddmmyy = dateStr.day + dateStr.month + dateStr.year.slice(-2);
   var mmddyy = dateStr.month + dateStr.day + dateStr.year.slice(-2);
   var yymmdd = dateStr.year.slice(-2) + dateStr.month + dateStr.day;
-
   return [ddmmyyyy, mmddyyyy, yyyymmdd];
+  
 }
 
 function checkPalindromeForAllDateFormats(date) {
@@ -152,7 +152,7 @@ function getPreviousDate(date) {
       month--;
     }
   } else {
-    if (day === 0 && month === 1) {
+    if (day === 0 && month === 1) {  //to go to date previous to 01st January 2022
       day = 31;
       month = 12;
     }
@@ -193,11 +193,11 @@ var output = document.querySelector("#output");
 var check = document.querySelector("#btn-check");
 
 
-function clickHandler(e) {
+function clickHandler() {
 
-  var inputt = input.value;
+    if (inputt !== "") {
 
-  if (inputt !== "") {
+    var inputt = input.value;
 
     var splitInput = inputt.split("-");
 
